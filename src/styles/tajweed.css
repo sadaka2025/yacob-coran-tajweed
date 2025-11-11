@@ -1,0 +1,47 @@
+.quran-page {
+  padding: 1rem;
+  max-width: 800px;
+  margin: auto;
+  font-size: 24px;
+}
+.quran-page.child {
+  font-size: 36px;
+}
+.quran-page.teacher {
+  font-size: 24px;
+}
+.quran-text {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+.letter {
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.letter.active {
+  background: yellow;
+}
+.annotation-bar {
+  position: relative;
+  height: 10px;
+  margin-top: 8px;
+  background: #eee;
+}
+.annotation {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background: rgba(255, 165, 0, 0.6);
+  transition: all 0.2s;
+}
+.annotation.highlight {
+  background: orange;
+}
+.quran-video {
+  width: 100%;
+  margin: 1rem 0;
+}
+.controls button {
+  margin-right: 8px;
+}
